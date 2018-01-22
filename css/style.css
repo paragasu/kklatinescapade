@@ -127,6 +127,10 @@ p {
   text-align: justify;
 }
 
+h5 {
+  text-transform: uppercase;
+}
+
 input[type=checkbox] {
   display: none;
 }
@@ -139,6 +143,11 @@ input:checked {
   display: none; 
 }
 
+.label-more {
+  color: purple;
+  font-style: italic;
+}
+
 label {
   display: inline;
 }
@@ -147,6 +156,10 @@ label:after {
   content: "Show More";
 }
 
-input:checked + div {
+input[type=checkbox] ~ div {
+  display: none;
+}
+
+input:checked ~ div {
   display: block;
 }
