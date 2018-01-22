@@ -145,7 +145,7 @@ input:checked {
 
 .label-more {
   color: purple;
-  font-style: italic;
+  font-weight: normal;
 }
 
 label {
