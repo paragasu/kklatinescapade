@@ -128,7 +128,7 @@ p {
 }
 
 input[type=checkbox] {
-  display: block;
+  display: none;
 }
 
 input:checked + label:after {
@@ -136,7 +136,7 @@ input:checked + label:after {
 }
 
 input:checked {
-  display: block; 
+  display: none; 
 }
 
 label {
