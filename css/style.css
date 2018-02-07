@@ -40,7 +40,11 @@ h3 {
 }
 
 .header {
-  margin-top: 3em;
+  padding-top: 3em;
+}
+
+.header-background {
+  background-color: #f0f0f0;
 }
 
 .img {
@@ -51,12 +55,22 @@ h3 {
 
 .event {
   background-color: #271141;
-  border-radius: 0.5em;
+  border-radius: 0.1em;
   text-align: center;
-  padding: 2em;
-  margin-top: 2em;
   margin-bottom: 5em;
+  padding-top: 3em;
+  padding-bottom: 3em;
   color: #fff;
+}
+
+.event-background {
+  background-color: #271141;
+}
+
+@media(min-width: 550px){
+  .event-background {
+    background-color: #601b5a;
+  }
 }
 
 .event-title {
@@ -76,6 +90,10 @@ h3 {
 
 .event-venue {
   font-size: 1.5em;
+}
+
+.location {
+  background-color: gray
 }
 
 .ticket-container {
