@@ -42,6 +42,7 @@
     <div class="event-tag"> Workshops | Shows | Parties </div>
     <div class="event-date"> 29th June - 1st July 2018 </div>
     <div class="event-venue"> Plaza Shell, Kota Kinabalu, Sabah </div>
+    <div class="event-countdown" id="countdown"></div>
     <div class="ticket-container">
       <a class="button button-primary" href="https://kklatinkizescapade.eventbrite.com"> Get Ticket </a>
     </div>
@@ -265,5 +266,10 @@ etc. </p>
       <div class="footer-copy"> &copy; 2018 kklatinkizescapade.com </div>
     </div>
   </footer>
+  <script src="js/countdown.min.js"></script>
+  <script>
+    var el = document.getElementById("countdown");   
+    el.innerHTML = countdown(null, new Date(2018, 06, 29), countdown.DAYS).toString() + " to go"; 
+  </script>
 </body>
 </html>
