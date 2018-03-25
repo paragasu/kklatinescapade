@@ -67,9 +67,17 @@ h3 {
   background-color: #271141;
 }
 
+.main-video {
+  height: 300px;
+}
+
 @media(min-width: 550px){
   .event-background {
     background-color: #601b5a;
+  }
+
+  .main-video {
+    height: 560px !important;
   }
 }
 
@@ -98,6 +106,7 @@ h3 {
   padding-top: 0.5em;
   color: orange;
 }
+
 
 .location {
   background-color: gray
