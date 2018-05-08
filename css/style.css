@@ -203,8 +203,7 @@ input:checked ~ div {
 }
 
 .big-table {
-  overflow: scroll; 
-  max-width: 96%;
+  overflow: auto; 
   box-sizing: border-box;
 }
 
