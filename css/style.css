@@ -201,9 +201,3 @@ input:checked ~ div {
 .sponsor img {
   margin: 0.5em;
 }
-
-.u-full-width {
-  width: 100%;
-  box-sizing: border-box;
-  overflow: scroll;
-}
