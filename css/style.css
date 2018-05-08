@@ -197,3 +197,7 @@ input[type=checkbox] ~ div {
 input:checked ~ div {
   display: block;
 }
+
+.sponsor img {
+  margin: 0.5em;
+}
