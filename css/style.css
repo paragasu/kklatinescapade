@@ -201,3 +201,17 @@ input:checked ~ div {
 .sponsor img {
   margin: 0.5em;
 }
+
+.big-table {
+  overflow: scroll; 
+  max-width: 96%;
+  box-sizing: border-box;
+}
+
+.party-table {
+  min-width: 600px;
+}
+
+.workshop-table {
+  min-width: 500px;
+}
